@@ -1,0 +1,47 @@
+group member: SiCheng Yi， Elizabeth Sutton
+
+1. 
+0.01s user 0.00s system 76% cpu 0.013 total
+0.01s user 0.00s system 97% cpu 0.010 total
+0.01s user 0.00s system 97% cpu 0.010 total
+2.
+18.53s user 0.00s system 99% cpu 18.536 total
+20.26s user 0.00s system 99% cpu 20.261 total
+20.94s user 0.00s system 99% cpu 20.946 total
+3. 
+0.04s user 0.00s system 94% cpu 0.050 total
+0.04s user 0.00s system 99% cpu 0.047 total
+0.04s user 0.01s system 99% cpu 0.048 total
+4. The outlier is number 2, when using the vectors. Because it looks bigger than others.
+5. vector:
+0.02s user 0.00s system 88% cpu 0.025 total
+0.02s user 0.00s system 97% cpu 0.023 total
+0.02s user 0.00s system 99% cpu 0.022 total
+
+list:
+0.04s user 0.00s system 95% cpu 0.049 total
+0.05s user 0.00s system 99% cpu 0.046 total
+0.05s user 0.00s system 99% cpu 0.046 total
+
+6. The list takes longer, so it was the outlier. I think it is similar with question4.
+
+7.
+0.75s user 0.00s system 99% cpu 0.759 total
+0.76s user 0.00s system 99% cpu 0.755 total
+0.76s user 0.00s system 99% cpu 0.759 total
+
+8.
+vector:
+0.05s user 0.00s system 85% cpu 0.064 total
+0.05s user 0.00s system 99% cpu 0.054 total
+0.05s user 0.00s system 99% cpu 0.054 total
+
+Deque:
+0.10s user 0.00s system 97% cpu 0.109 total
+0.11s user 0.00s system 99% cpu 0.113 total
+0.10s user 0.00s system 99% cpu 0.105 total
+
+9.
+The vector will be very slow as we see, so if the data is very lot, it is slow.
+
+Since the input iterator of STL's own sorting algorithm sort is a random access iterator, but the access method of the doubly list linked list container is a two-way iterator. Therefore, you cannot use the sort algorithm sort of the STL itself, and you must define the sorting algorithm you belong to.

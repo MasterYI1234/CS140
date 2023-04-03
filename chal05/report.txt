@@ -1,0 +1,29 @@
+group member: SiCheng Yi，  Zackery Rodger Hayes
+
+2,3,4: 
+ ACM_h:
+97695
+min:0
+max:1396
+
+DJB:
+93675
+min:1688
+max:6823
+
+
+5:
+ACM_h:
+0.08s user 0.00s system 76% cpu 0.103 total
+0.07s user 0.00s system 97% cpu 0.098 total
+0.07s user 0.00s system 97% cpu 0.097 total
+
+DJB:
+0.07s user 0.00s system 96% cpu 0.063 total
+0.06s user 0.00s system 97% cpu 0.052 total
+0.06s user 0.00s system 97% cpu 0.052 total
+
+
+6:
+I think DJB is better, because the spending time and cpu is less than ACM. 
+

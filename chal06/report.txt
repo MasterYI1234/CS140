@@ -1,0 +1,13 @@
+group member:Pierluigi, Skyla, SiCheng Yi
+
+log            N: 7500000000000000  Count: 53          Time: 0.000
+linear1        N: 50000000000       Count: 50000000000 Time: 98.628
+linear2        N: 25000000000       Count: 50000000000 Time: 97.952
+nlogn          N: 2500000000        Count: 80000000000 Time: 113.661
+nsquared       N: 250000            Count: 62500000000 Time: 121.191
+all_i_j_pairs  N: 250000            Count: 31249875000 Time: 59.371
+two_to_the_n   N: 35                Count: 34359738368 Time: 73.685
+
+3.
+O(log n) is  mach fast, and O(n^2) is slower than it.
+If n be lagger, then the time of O(n^2) will be mach effect by n, but O(log n) nearly no effect by it.
