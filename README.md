@@ -1,2 +1,2 @@
-# CS140/Lab1
+# CS140/Lab
 University of Tennessee
