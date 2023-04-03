@@ -1,0 +1,6 @@
+ of Boards considered with contraint(s) for n = 8： The standard error is 15720
+of Boards considered with contraint(s) for n = 10：The standard error is  348150
+In your own words, what is the benefit of a recursive solution to enumerate all of the nqueens potential solutions：
+We can clearly see all the possibilities, easy to understand, recursion itself reduces the code we need to enter. The idea of enumerating all the possibilities is relatively simple, allowing us to quickly think of and complete it.
+Also in your own words, what are the theoretical and/or practical advantages of constraining the search space to only still valid solutions?
+The space is limited so that the program can run faster. List all the programs. When the data is large, there are a lot of attempts, so the time becomes very slow. There are long * wide ways to combine all positions. After limiting, many unnecessary error attempts can be reduced, and the operation speed will be faster when the data becomes larger.

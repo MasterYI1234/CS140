@@ -1,0 +1,20 @@
+1.Use find() get the time.(make test)
+0.00s user 0.01s system 0% cpu 1.412 total.
+0.00s user 0.01s system 0% cpu 1.414 total.
+0.00s user 0.01s system 0% cpu 1.413 total.
+
+2. v[i] ==1
+0.00s user 0.01s system 0% cpu 1.716 total.
+0.00s user 0.01s system 0% cpu 1.715 total.
+0.00s user 0.01s system 0% cpu 1.715 total.
+3.load factor：
+148933
+4. using binary_search
+0.00s user 0.01s system 0% cpu 1.401 total.
+0.00s user 0.01s system 0% cpu 1.397 total.
+0.00s user 0.01s system 0% cpu 1.394 total.
+
+5. use map, not vector.(find()).
+0.00s user 0.01s system 0% cpu 1.398 total.
+0.00s user 0.01s system 0% cpu 1.394 total.
+0.00s user 0.01s system 0% cpu 1.395 total.

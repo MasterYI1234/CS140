@@ -1,0 +1,79 @@
+Make and writing by： SiCheng Yi
+Describes what each member function would do on a high level and potential：
+int getStatus();  //Simply get the game status
+
+void getChar();  //Get user input, and set the state according to the user input (move up, down, left and right to play the game, status update, exit and refresh)
+
+void draw();  //Draw the game interface (clean up the screen, set the offset, draw the numbers, align the numbers to the right, draw the game operation method and score, draw the status information, remind the user of input and output errors)
+
+void setData(); //The number of the game interface when the class is initialized
+
+void drawNum(int x, int y, int num); //Right align drawing numbers
+
+void restart();  //Restart the game settings
+
+bool randNew(int num); //Randomly generate any number, it is make the number, and other function can get rand number from here.
+
+bool moveLeft();  //Game left operation, just operate on the current data
+
+void rotate(); //Rotate 90 degrees clockwise, just operate on the current data
+
+bool isOver();  //Determine whether the game is over or not, if over return ture, if not return false.
+
+void dataSave(); //Save the current game state, This is just use at the game is stop, I find when I close the game window, and reopen it, it will restore the previous progress. So it will put the data[N][N] in to the  save[N][N]
+
+void dataLoad(); //Load the previous game state
+
+Pros and cons of using classes (OOP) for this specific：
+Using class allows us to easily see the role of each function, and simply call them (this means that other programmers can simply use only one part of your program and use their own in other parts Ideas.Similarly, the user only needs to use an interface you provide, you can simply use a function in your program.). At the same time, the class can make it easier for us to debug.
+But class makes the program look very long, although more flexible, but not simple enough.
+
+Describe at least one data structure we have covered that would be useful:
+int data[N][N];
+Using a 2D array here is undoubtedly the simplest and most convenient choice, because this game is completed by a fixed length and width panel (users can set it by themselves, such as 4x4), so according to the value of a certain position of the 2D array, we You can determine the current state of this grid, such as data[2][3] = ...., which means the state of the second row and third column. In this case, the 2D array is the simplest and clearest.
+
+Provides at least two test cases/unit tests for the problem outlined above:
+The test of this game basically requires users to play by themselves, but you can modify the settings in some places to confirm, such as using certain specific values instead of using the random values provided in randNew, so that we can follow certain specific inputs and Steps to get a constant final result. Or the next step in the panel under some input.
+
+1:
+before input:
+-1 -1 -1 -1 
+4  4  2  -1
+4  8  -1  -1
+8  2  2  -1
+
+input: left
+
+output:
+-1 -1 -1 -1
+2 -1 8 2
+-1 -1 4 8
+-1 -1 8 4
+
+
+2:
+before input:
+4 8 4 -1
+4 2 4 -1
+2 16 2 -1
+4 2 2 -1
+
+input: left
+
+output:
+-1 4 8 4
+-1 4 2 4
+-1 2 16 2
+2 -1 4 4
+
+
+
+Provides a rubric/contract for how we should grade an "official" version of this lab based on the information above:
+2048game.cpp is well formatted, commented (inc. name, assignment......).
+Correctly complete the make test (2test).
+Able to play the game completely.
+The state can be saved so that you can continue to play next time.
+
+
+
+

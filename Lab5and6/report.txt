@@ -1,0 +1,4 @@
+2.24 Lab class:  Check the Sudoku gameplay and confirm the problem, think about the meaning of the problem solution (my english is not very good).
+2.24 13:00-17:30: Thinking about solutions, and designing and writing a general solution (main function to put the question in to my vector and the search function to check the solution).
+2.25 12:20-1:20: Write the print function to print the solution.
+2.25 3:40-5:00: Debug

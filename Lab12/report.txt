@@ -1,0 +1,6 @@
+1.
+Finished the work of bstree, and constructed a number of modules well.
+2.
+We can get all the ordered keys from the BST tree species without much additional operation. But there is no way to easily get all the ordered keys from the HashTable.
+It is easy to use batree to find a value larger (or smaller) than a certain value, or suitable for a range query. But Hashtable is relatively complicated.
+Corresponding to bstree, all operations can be guaranteed to be completed in O(LgN) time. But Hashtable sometimes consumes a lot of time.
